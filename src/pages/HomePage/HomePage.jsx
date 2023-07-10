@@ -35,7 +35,7 @@ const HomePage = () => {
               </a>
             </li>
             <li className="liStyle">
-              <a className="liA" href="/nigga" title="">
+              <a className="liA" href="/" title="">
                 spring/summer 2023 lookbook
               </a>
             </li>
