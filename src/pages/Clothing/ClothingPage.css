@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto+Mono:wght@400;600;700&family=Space+Mono&display=swap');
+
+.hoodieContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color:  white;
+   position: absolute;
+   left: -10%;
+   width: 120%;
+   height: 120%;
+   bottom: 0.5%;
+}
+
+.carouselContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: 22%;
+   left: 17%;
+   height: 70%;
+   width: 70%;
+}
+.hoodieImg{
+   height: 100%;
+   width: 100%;
+}
+.midDiv{
+   height: 85%;
+}
+.underHoodie{
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+.supLogo2{
+   width: 80%;
+}
+.supImgDiv{
+   display: flex;
+   align-items: center;
+   height: 100%;
+   width: 25%;
+}
+.hoodieImgDiv{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   min-height: 87%;
+}
+.midTextDiv{
+   width: 55%;
+   text-align: left;
+}
+.boldedText{
+   font-family: "Roboto Mono";
+   color: black;
+   
+}
+.midNums{
+   font-family: "Cutive Mono";
+   color: slategray;
+
+}
+.pickerDiv{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   justify-self: center;
+   width: 25%;
+   z-index: 3;
+}
+.backBtn{
+   display: flex;
+   justify-self: start;
+   position: relative;
+   right: 3.5%;
+   align-items: center;
+}
+.backUl{
+   list-style-type: none;
+}
+.backLi{
+   font-family: "Cutive Mono";
+   font-size: large;
+   color: white;
+   background-color: black;
+}
+.backLi:hover{
+   background-color: red;
+}
+.liA:visited {
+   color: white;
+ }
+ .liA:visited:hover {
+   color: white;
+ }

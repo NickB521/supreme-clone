@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto+Mono:wght@400;600;700&family=Space+Mono&display=swap');
+#root {
+  /*max-width: 1280px;*/
+  height: 100vh;
+  width: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/Users/student1/dev2023/supreme-clone/src/assets/home_buggy.gif");
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 100%;
+  bottom: -40px;
+}
+.div1{
+  justify-content: center;
+}
+.card {
+  padding: 2em 0em 0em 0em;
+  position: relative;
+  left: 2.5%;
+}
+.btnText{
+  font-family: 'Roboto Mono';
+}
+.liStyle{
+  font-family: 'Roboto Mono';
+  font-size: small;
+  color: white;
+  margin: 10px;
+}
+.supLogo{
+  width: 160px;
+  height: 50px;
+}
+.HPlist {
+  list-style-type: none;
+  text-align: left;
+} 
+.headerList{
+  list-style-type: none;
+  text-align: left;
+}
+.liA :link {
+  color: white !important;
+}
+.liA:link:hover {
+  color: white;
+}
+.liA:link:active {
+  color: white;
+}
+.HPlist li :hover {
+  background-color: red;
+  display: inline-block;
+  height: fit-content;
+} 
+.liA:visited {
+  color: white;
+}
+.liA:visited:hover {
+  color: white;
+}
+.timetext{
+  font-family: 'Roboto Mono';
+  color: white;
+  font-size: small;
+  
+}
+.toolbar{
+  position: relative;
+  left: 4%;
+  bottom: -8.5%;
+  width: 20%;
+  height: 5%;
+  z-index: 4;
+}
+.btmTextLI{
+  display: inline;
+  color: white;
+  margin: 0% 2% 2% 1%;
+  font-family: 'Roboto Mono';
+  font-size: small;
+}
+.btmTextLI:hover{
+  background-color: red;
+}
+

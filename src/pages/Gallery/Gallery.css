@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto+Mono:wght@400;600;700&family=Space+Mono&display=swap");
+
+.secContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  bottom: 0.5%;
+}
+.galleryContainer {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 22%;
+  left: 20%;
+  height: 70%;
+  width: 63%;
+}
+.headerPic {
+  display: flex;
+  position: absolute;
+  top: 23%;
+  z-index: 3;
+}
+.headerList {
+  list-style-type: none;
+  text-align: center;
+}
+/* .liA :link {
+   color: black !important;
+ }
+ .liA:link:hover {
+   color: black;
+ }
+ .liA:link:active {
+   color: black;
+ }
+ .liA:visited {
+   color: black;
+ } */
+.timetext2 {
+  font-family: "Cutive Mono";
+  color: black;
+  font-size: small;
+}
+.btmTextDiv {
+  display: flex;
+  width: 44%;
+  height: 5%;
+  position: absolute;
+  top: 88%;
+  left: 33%;
+}
+.btmLeftTextDiv {
+  position: relative;
+  right: 7%;
+  justify-content: flex-start;
+  width: 94%;
+}
+.btmTextLi {
+  display: inline;
+  color: black;
+  margin: 0% 1% 1% 1%;
+  font-family: "Cutive Mono";
+  font-size: small;
+}
+.btmTextLi:hover {
+  background-color: red;
+  color: white;
+}
+.liA2:visited {
+  color: black;
+}
+.liA2:link:active {
+  color: black;
+}
+.liA2 :link {
+  color: black !important;
+}
+.liA2:visited:hover {
+  color: white;
+}
+.liA2:link:active:hover {
+  color: white;
+}
+.liA2 :link:hover {
+  color: white !important;
+}
+.btmRightTextDiv {
+  width: 33%;
+  position: relative;
+  right: 10%;
+  z-index: 2;
+}
+
+.btmRightTextLi {
+  display: inline;
+  color: black !important;
+  margin: 0% 1% 1% 1%;
+  font-family: "Cutive Mono";
+  font-size: small;
+}
+.btmRightTextLi:hover {
+  background-color: red;
+  color: white;
+}
+.btmRightTextLi a {
+  color: black;
+}
+.btmRightTextLi a:hover {
+  color: white;
+}
+.btmRightTextLi2 {
+  display: inline;
+  color: black !important;
+  margin: 0% 1% 1% 1%;
+  font-family: "Cutive Mono";
+  font-size: small;
+}
+.btmRightTextLi2 a {
+  color: red;
+}
+.btmRightTextLi2 a:hover {
+  color: white;
+}
+.btmRightTextLi2:hover {
+  background-color: red;
+}

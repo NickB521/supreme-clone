@@ -1,0 +1,16 @@
+.divvy{
+padding: 10px;
+  box-sizing: border-box;
+  max-width: 16%;
+  max-height: 16%;
+  overflow: hidden;
+  padding: 2px;
+  margin: 0px 1px 0px 1px;
+}
+.gallContainer{
+   width: 90%;
+   height: 90%;
+   display: flex;
+   flex-wrap: wrap;
+   overflow: auto;
+}
